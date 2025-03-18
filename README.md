@@ -33,14 +33,13 @@ A real-time system monitoring tool that provides detailed insights into CPU, mem
    npm start
 
 
-3.**Frontend Setup**
-    ```bash
+3. **Frontend Setup**:
+   ```bash
    cd ../frontend
    npm install
    npm run dev
-
-
-
+    
+    
 ## Usage
 
 ### Access the Application
