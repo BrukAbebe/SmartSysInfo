@@ -17,6 +17,7 @@ const handleSystemQuery = async (req, res) => {
         const systemInfo = await getSystemInfo(intentResult.intent);
 
         const organizedResponse = await getOrganizedResponse(query, systemInfo);
+        console.log(organizedResponse);
 
         res.json({ intent: intentResult.intent, systemInfo, organizedResponse });
     } catch (error) {
